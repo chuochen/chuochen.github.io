@@ -1,0 +1,22 @@
+name: "chuo_v2_beta"
+navbar:
+  title: "Chuo Chen v2 beta"
+  left:
+    - icon: fa-home fa-lg
+    - text: "Home"
+      href: index.html
+    - icon: fa-child fa-lg
+    - text: "People"
+      href: people.html
+    - icon: fa-flask fa-lg
+    - text: "Research"
+      href: research.html
+    - icon: fa-link fa-lg
+    - text: "Links"
+      href: links.html
+  right: 
+    - icon: fa-envelope fa-lg
+      href: mailto:<chuo.chen@utsouthwestern.edum>
+output:
+  html_document:
+    theme: darkly

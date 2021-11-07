@@ -1,0 +1,7 @@
+---
+title: "Chuo 2.0 beta"
+---
+
+Rebuilding...
+
+<img src="files/construction.png" style="width:50%">
