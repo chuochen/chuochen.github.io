@@ -13,7 +13,7 @@
 
 <title>The fantastic gibberish and where to find it</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -309,9 +310,37 @@ $(document).ready(function () {
 
 <ol reversed>
 <li>
+Repurposing Iron- and 2-Oxoglutarate-Dependent Oxygenases to Catalyze Olefin Hydration<br />
+Wang, B.; Lu, Y.; Cha, L.; Chen, T.-Y.; Palacios, P.; Li, L.; Guo, Y.; Chang, W.-c.; Chen, C.<br />
+<a href="https://onlinelibrary.wiley.com/doi/10.1002/anie.202311099">Angew. Chem. Int. Ed. 2023, e202311099</a>
+</li>
+<br />
+
+<li>
+Exceptional Reactivity of the Bridgehead Amine on Bicyclo[1.1.1]pentane (Invited Article in Honor of Prof. Tien-Yau Luh on the Occasion of His 76th Anniversary)<br />
+Lu, Y.; Chen, C.<br />
+<a href="https://www.arkat-usa.org/arkivoc-journal/browse-arkivoc/ark.5550190.p012.003">Arkivoc 2023, 202312003</a>
+</li>
+<br />
+
+<li>
+10th Anniversary of Discovering cGAMP: Synthesis and Beyond<br />
+Chen, C.<br />
+<a href="https://pubs.rsc.org/en/content/articlelanding/2022/qo/d2qo02033e">Org. Chem. Fornt. 2023, 10, 1086–1098</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/37144138">(PMID: 37144138)</a>
+</li>
+<br />
+
+<li>
+Tumor-Targeted Delivery of a STING Agonist Improves Cancer Immunotherapy<br />
+Wu, Y.-t.; Fang, Y.; Wei, Q.; Shi, H.; Tan, H.; Deng, Y.; Zeng, Z.; Qiu, J.; Chen, C.; Sun, L., Chen, Z. J.<br />
+<a href="https://www.pnas.org/doi/10.1073/pnas.2214278119">Proc. Natl. Acad. Sci. 2022, 119, e2214278119</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/36442099">(PMID: 36442099)</a>
+</li>
+<br />
+
+<li>
 A Phosphine-Based Redox Method for Direct Conjugation of Disulfides (Invited Article for the Celebrating 10 years of ChemComm Emerging Investigators Themed Collection)<br />
 Lu, Y.; You, L.; Chen, C.<br />
-<a href="https://pubs.rsc.org/en/content/articlelanding/2022/cc/d2cc04967h">Chem. Commun. 2022, DOI: 10.1039/D2CC04967H</a>
+<a href="https://pubs.rsc.org/en/content/articlelanding/2022/cc/d2cc04967h">Chem. Commun. 2022, 58, 12439–12442</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/36278800">(PMID: 36278800)</a>
 </li>
 <br />
 
@@ -416,7 +445,7 @@ Zhang, C.; You, L.; Chen, C.<br />
 <li>
 The past, present, and future of the Yang Reaction (Invited Review Article)<br />
 Chen, C.<br />
-<a href="http://pubs.rsc.org/en/content/articlelanding/2016/ob/c6ob01214k#!divAbstract">Org. Biomol. Chem. 2016, 14, 8641–8647</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/27517138">(PMID: 27517138)</a>
+<a href="http://pubs.rsc.org/en/content/articlelanding/2016/ob/c6ob01214k">Org. Biomol. Chem. 2016, 14, 8641–8647</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/27517138">(PMID: 27517138)</a>
 </li>
 <br />
 
@@ -458,7 +487,7 @@ Shi, H.; Wu, J.; Chen, Z. J.; Chen, C.<br />
 <li>
 Syntheses of Sceptrins and Nakamuric Acid and Insights into the Biosyntheses of Pyrrole–Imidazole Dimers<br />
 Wang, X.-L.; Gao, Y.; Ma, Z.; Rodriguez, R. A.; Yu, Z.-X.; Chen, C.<br />
-<a href="http://pubs.rsc.org/en/content/articlelanding/2015/qo/c5qo00165j#!divAbstract">Org. Chem. Front. 2015, 2, 978–984</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/26328059">(PMID: 26328059)</a>
+<a href="http://pubs.rsc.org/en/content/articlelanding/2015/qo/c5qo00165j">Org. Chem. Front. 2015, 2, 978–984</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/26328059">(PMID: 26328059)</a>
 </li>
 <br />
 
@@ -507,21 +536,21 @@ Ma, Z.; Wang, X.-L.; Wang, X.; Rodriguez, R. A.; Moore, C. E.; Gao, S.; Tan, X.;
 <li>
 Visible Light-Promoted Metal-Free sp<sup>3</sup>-C–H Fluorination<br />
 Xia, J.-B.; Zhu, C.; Chen, C.<br />
-<a href="http://pubs.rsc.org/en/content/articlelanding/2014/cc/c4cc05650g#!divAbstract">Chem. Commun. 2014, 50, 11701–11704</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/25143256">(PMID: 25143256)</a>
+<a href="http://pubs.rsc.org/en/content/articlelanding/2014/cc/c4cc05650g">Chem. Commun. 2014, 50, 11701–11704</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/25143256">(PMID: 25143256)</a>
 </li>
 <br />
 
 <li>
 Dimeric Pyrrole–Imidazole Alkaloids: Synthetic Approaches and Biosynthetic Hypotheses (Invited Review Article)<br />
 Wang, X.; Ma, Z.; Wang, X.-L.; De, S.; Ma, Y.; Chen, C.<br />
-<a href="http://pubs.rsc.org/en/content/articlelanding/2014/cc/c4cc02290d#!divAbstract">Chem. Commun. 2014, 50, 8628–8639</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/24828265">(PMID: 24828265)</a>
+<a href="http://pubs.rsc.org/en/content/articlelanding/2014/cc/c4cc02290d">Chem. Commun. 2014, 50, 8628–8639</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/24828265">(PMID: 24828265)</a>
 </li>
 <br />
 
 <li>
 Vanadium-Catalyzed C(sp<sup>3</sup>)–H Fluorination Reactions<br />
 Xia, J.-B.; Ma, Y.; Chen, C.<br />
-<a href="http://pubs.rsc.org/en/content/articlelanding/2014/qo/c4qo00057a#!divAbstract">Org. Chem. Front. 2014, 1, 468–472</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/24976971">(P)MID: 24976971)</a>
+<a href="http://pubs.rsc.org/en/content/articlelanding/2014/qo/c4qo00057a">Org. Chem. Front. 2014, 1, 468–472</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/24976971">(P)MID: 24976971)</a>
 </li>
 <br />
 
