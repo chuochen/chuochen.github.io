@@ -13,7 +13,7 @@
 
 <title>In case you need…</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -321,14 +322,16 @@ $(document).ready(function () {
 <a href="http://www.chem.wisc.edu/areas/organic/index-chem.htm">Organic Chemistry Data</a><br />
     <a href="https://organicchemistrydata.org/hansreich/resources/fundamentals/?page=a_values/">A-values</a><br />
     <a href="https://organicchemistrydata.org/solvents/">Solvent Properties</a><br />
-    <a href="https://organicchemistrydata.org/hansreich/resources/pka/">Bordwell pKa Table</a> <a href="https://chuochen.github.io/files/Evans_pKa_table.pdf"><em>(and thanks to Big Dave)</em></a><br />
-    <a href="https://labs.chem.ucsb.edu/zakarian/armen/11---bonddissociationenergy.pdf">Common Bond Energies</a> <a href="https://www2.chemistry.msu.edu/faculty/reusch/OrgPage/bndenrgy.htm"><em>(some quick numbers)</em></a><br />
+    <a href="https://organicchemistrydata.org/hansreich/resources/pka/">Bordwell pKa Table</a> <a href="https://chuochen.github.io/files/Evans_pKa_table.pdf">(<em>and thanks to Big Dave</em>)</a><br />
+    <a href="https://labs.chem.ucsb.edu/zakarian/armen/11---bonddissociationenergy.pdf">Common Bond Energies</a> <a href="https://www2.chemistry.msu.edu/faculty/reusch/OrgPage/bndenrgy.htm">(<em>some quick numbers</em>)</a><br />
 <a href="https://periodic.lanl.gov/index.shtml">Los Alamos Periodic Table</a></div>
 <hr />
 </div>
 <div id="webtools" class="section level2">
 <h2>Webtools</h2>
-<div class="line-block"><a href="http://www.ibi.vu.nl/programs/pralinewww/">PRALINE</a><br />
+<div class="line-block"><a href="https://www.ebi.ac.uk/Tools/msa/muscle/">MUSCLE</a><br />
+<a href="https://www.ebi.ac.uk/Tools/msa/clustalo/">Clustal Omega</a><br />
+<a href="https://espript.ibcp.fr/ESPript/cgi-bin/ESPript.cgi">ESPript</a><br />
 <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins&amp;PROGRAM=blastp&amp;BLAST_PROGRAMS=blastp&amp;PAGE_TYPE=BlastSearch&amp;BLAST_SPEC=blast2seq">NCBI Protein BLAST</a><br />
 <a href="https://cactus.nci.nih.gov/gifcreator/">NCI SMILES Translator</a><br />
 <a href="http://www.vcclab.org/lab/alogps/">ALOGPS Lipophilicity/Aqueous Solubility</a><br />
@@ -348,7 +351,8 @@ $(document).ready(function () {
     <a href="https://www.utsouthwestern.edu/labs/sanger-sequencing-core/resources/">Sequencing Core</a><br />
     <a href="https://www.utsouthwestern.edu/labs/nmr/">Biochemistry NMR Core</a><br />
 <a href="https://pubs.acs.org/doi/pdf/10.1021/jo971176v">NMR Solvent Peaks</a><br />
-<a href="https://pubs.acs.org/doi/pdf/10.1021/om100106e">More NMR Solvent Peaks</a> <a href="https://pubs.acs.org/doi/suppl/10.1021/om100106e/suppl_file/om100106e_si_001.pdf">(<em>also here</em>)</a><br />
+    <a href="https://pubs.acs.org/doi/pdf/10.1021/om100106e">More on the NMR Solvent Peaks</a> <a href="https://pubs.acs.org/doi/suppl/10.1021/om100106e/suppl_file/om100106e_si_001.pdf">(<em>the sneak peek</em>)</a><br />
+    <a href="https://pubs.acs.org/doi/10.1021/acs.oprd.5b00417">Even More on the NMR Solvent Peaks (<em>and free access too!</em>)</a><br />
 <a href="https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi?lang=eng">AIST Spectral Database for Organic Compounds</a></div>
 <hr />
 </div>
