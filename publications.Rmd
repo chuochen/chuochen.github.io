@@ -1,0 +1,427 @@
+---
+title: "The fantastic gibberish and where to find it"
+output: html_document
+---
+
+<ol reversed>
+ <li>
+ Orthogonal Hydroxyl Functionalization of cGAMP Confers Metabolic Stability and Enables Antibody Conjugation\
+ Lu, Y.; You, L.; Li, L.; Kilgore, J.; Liu, S.; Wang, X.; Dai, Y.; Wei, Q.; Shi, H.; Han, L.; Sun, L.; Chen, Z. J.; Zhang, X.; Williams, N. S.; Chen, C.\
+ [ACS Cent. Sci. 2023, 9, 2298–2305](https://pubs.acs.org/doi/10.1021/acscentsci.3c01122)
+ </li>
+ \
+ <li>
+ Repurposing Iron- and 2-Oxoglutarate-Dependent Oxygenases to Catalyze Olefin Hydration\
+ Wang, B.; Lu, Y.; Cha, L.; Chen, T.-Y.; Palacios, P.; Li, L.; Guo, Y.; Chang, W.-c.; Chen, C.\
+ [Angew. Chem. Int. Ed. 2023, e202311099](https://onlinelibrary.wiley.com/doi/10.1002/anie.202311099) [(PMID: 37639670)](http://www.ncbi.nlm.nih.gov/pubmed/37639670)
+ </li>
+ \
+ <li>
+ Exceptional Reactivity of the Bridgehead Amine on Bicyclo[1.1.1]pentane (Invited Article in Honor of Prof. Tien-Yau Luh on the Occasion of His 76th Anniversary)\
+ Lu, Y.; Chen, C.\
+ [Arkivoc 2023, 202312003](https://www.arkat-usa.org/arkivoc-journal/browse-arkivoc/ark.5550190.p012.003) [(PMID: 37786812)](http://www.ncbi.nlm.nih.gov/pubmed/37786812)
+ </li>
+ \
+ <li>
+ 10th Anniversary of Discovering cGAMP: Synthesis and Beyond\
+ Chen, C.\
+ [Org. Chem. Fornt. 2023, 10, 1086–1098](https://pubs.rsc.org/en/content/articlelanding/2022/qo/d2qo02033e) [(PMID: 37144138)](http://www.ncbi.nlm.nih.gov/pubmed/37144138)
+ </li>
+ \
+ <li>
+ Tumor-Targeted Delivery of a STING Agonist Improves Cancer Immunotherapy\
+ Wu, Y.-t.; Fang, Y.; Wei, Q.; Shi, H.; Tan, H.; Deng, Y.; Zeng, Z.; Qiu, J.; Chen, C.; Sun, L., Chen, Z. J.\
+ [Proc. Natl. Acad. Sci. 2022, 119, e2214278119](https://www.pnas.org/doi/10.1073/pnas.2214278119) [(PMID: 36442099)](http://www.ncbi.nlm.nih.gov/pubmed/36442099)
+ </li>
+ \
+ <li>
+ A Phosphine-Based Redox Method for Direct Conjugation of Disulfides (Invited Article for the Celebrating 10 years of ChemComm Emerging Investigators Themed Collection)\
+ Lu, Y.; You, L.; Chen, C.\
+ [Chem. Commun. 2022, 58, 12439–12442](https://pubs.rsc.org/en/content/articlelanding/2022/cc/d2cc04967h) [(PMID: 36278800)](http://www.ncbi.nlm.nih.gov/pubmed/36278800)
+ </li>
+ \
+ <li>
+ Identification of TRAMs as Sphingolipid-Binding Proteins Using a Photoactivatable and Clickable Short Chain Ceramide Analog\
+ Deng, Y.; You, L.; Lu, Y.; Han, S.; Wang, J.; Vicas, N.; Chen, C.; Ye, J.\
+ [J. Biol. Chem. 2021, 297, 101415](https://www.sciencedirect.com/science/article/pii/S0021925821012242) [(PMID: 34793833)](http://www.ncbi.nlm.nih.gov/pubmed/34793833)
+ </li>
+ \
+ <li>
+ Avoid the Trap: Targeting PARP1 Beyond Human Malignancy\
+ Kim, C.; Chen, C.; Yu, Y.\
+ [Cell Chem. Biol. 2021, 28, 456–462](https://doi.org/10.1016/j.chembiol.2021.02.004) [(PMID: 33657415)](http://www.ncbi.nlm.nih.gov/pubmed/33657415)
+ </li>
+ \
+ <li>
+ Novel Necroptosis-blocking Compound NBC1 Targets Heat Shock Protein 70 to Inhibit MLKL Polymerization and Necroptosis\
+ Johnston, A.; Ma, Y.; Liu, H.; Liu, S.; Hanna-Addams, S.; Chen, S.; Chen, C.; Wang, Z.\
+ [Proc. Natl. Acad. Sci. 2020, 117, 6521–6530](https://www.pnas.org/content/117/12/6521) [(PMID: 32156734)](http://www.ncbi.nlm.nih.gov/pubmed/32156734)
+ </li>
+ \
+ <li>
+ Uncoupling of PARP1 Trapping and Inhibition Using Selective PARP1 Degradation\
+ Wang, S.; Han, L.; Han, J.; Li, P.; Ding, Q.; Zhang, Q.-J.; Liu, Z.-P.; Chen, C,; Yu, Y.\
+ [Nat. Chem. Biol. 2019, 15, 1223-1231](https://www.nature.com/articles/s41589-019-0379-2) [(PMID: 31659317)](http://www.ncbi.nlm.nih.gov/pubmed/31659317)
+ </li>
+ \
+ <li>
+ Stereoselective Fatty Acylation Is Essential for the Release of Lipidated WNT Proteins from the Acyltransferase Porcupine (PORCN)\
+ Tuladhar, R.; Yarravarapu, N.; Ma, Y.; Zhang, C.; Herbert, J.; Kim, J.; Chen, C.; Lum, L.\
+ [J. Biol. Chem. 2019, 294, 6273–6282](http://www.jbc.org/content/294/16/6273.abstract) [(PMID: 30737280)](http://www.ncbi.nlm.nih.gov/pubmed/30737280)
+ </li>
+ \
+ <li>
+ Installation of a Cancer Promoting WNT/SIX1 Signaling Axis by the Oncofusion Protein MLL-AF9\
+ Zhang, L.-s.; Kang, X.; Lu, J.; Zhang, Y.; Wu, X.; Wu, G.; Zheng, J.; Tuladhar, R.; Shi, H.; Wang, Q.; Morlock, L.; Yao, H.; Huang, L. J.-s.; Maire, P.; Kim, J.; Williams, N. S.; Xu, J.; Chen, C.; Zhang, C. C.; Lum, L.\
+ [EBioMedicine 2019, 39, 145–158](https://doi.org/10.1016/j.ebiom.2018.11.039) [(PMID: 30528456)](http://www.ncbi.nlm.nih.gov/pubmed/30528456)
+ </li>
+ \
+ <li>
+ Rapid Access to the Core Skeleton of the [3 + 2]-Type Dimeric Pyrrole–Imidazole Alkaloids by Triplet Ketone-Mediated C–H Functionalization (Invited Article for Tetrahedron Symposium-in-Print "Biogenetic Considerations in Complex Synthesis")\
+ You, L.; Chen, C.\
+ [Tetrahedron 2018, 74, 769–772](http://www.sciencedirect.com/science/article/pii/S0040402017312875) [(PMID: 29622843)](http://www.ncbi.nlm.nih.gov/pubmed/29622843)
+ </li>
+ \
+ <li>
+ Natural Products as Inspiration for the Development of New Synthetic Methods (Invited Article in honor of Prof. Tien-Yau Luh's 70th Birthday)\
+ Ma, Z.; Chen, C.\
+ [J. Chin. Chem. Soc. 2018, 1, 43–59](http://onlinelibrary.wiley.com/doi/10.1002/jccs.201700134/abstract) [(PMID: 29430058)](http://www.ncbi.nlm.nih.gov/pubmed/29430058)
+ </li>
+ \
+ <li>
+ A Synthetic Combinatorial Approach to Disabling Deviant Hedgehog Signaling\
+ Fan, C. W.; Yarravarapu, N.; Shi, H.; Kulak, O.; Kim, J.; Chen, C.; Lum, L.\
+ [Sci. Rep. 2018, 8, 1133](https://www.nature.com/articles/s41598-018-19408-9) [(PMID: 29348431)](http://www.ncbi.nlm.nih.gov/pubmed/29348431)
+ </li>
+ \
+ <li>
+ Ketone-Catalyzed Photochemical C(sp^3^)–H Chlorination (Invited Article in honor of Prof. Ang Li's 2017 Tetrahedron Young Investigator Award)\
+ Han, L.; Xia, J.-B.; You, L.; Chen, C.\
+ [Tetrahedron 2017, 73, 3696–3701](http://www.sciencedirect.com/science/article/pii/S004040201730474X) [(PMID: 28717256)](http://www.ncbi.nlm.nih.gov/pubmed/28717256)
+ </li>
+ \
+ <li>
+ cGAS Is Essential for the Antitumor Effect of Immune Checkpoint Blockade\
+ Wang, H.; Hu, S.; Chen, X.; Shi, H.; Chen, C.; Sun, Li; Chen, Z. J.\
+ [Proc. Natl. Acad. Sci. 2017, 114, 1637–1642](http://www.pnas.org/content/early/2017/01/27/1621363114.abstract) [(PMID: 28137885)](http://www.ncbi.nlm.nih.gov/pubmed/28137885)
+ </li>
+ \
+ <li>
+ Stereocontrolled Formation of a [4.4]Heterospiro Ring System with Unexpected Inversion of Configuration at the Spirocenter\
+ Ma, Z.; You, L.; Chen, C.\
+ [J. Org. Chem. 2017, 82, 731–736](http://pubs.acs.org/doi/abs/10.1021/acs.joc.6b02266) [(PMID: 27933858)](http://www.ncbi.nlm.nih.gov/pubmed/27933858)
+ </li>
+ \
+ <li>
+ Development of a Triazole Class of Highly Potent Porcn Inhibitors\
+ You, L.; Zhang, C.; Yarravarapu, N.; Morlock, L.; Wang, X.-L.; Zhang, L.; Williams, N. S.; Lum, L.; Chen, C.\
+ [Bioorg. Med. Chem. Lett. 2016, 26, 5891–5895](http://www.sciencedirect.com/science/article/pii/S0960894X16311520) [(PMID: 27876319)](http://www.ncbi.nlm.nih.gov/pubmed/27876319)
+ </li>
+ \
+ <li>
+ Palladium-Catalyzed C–H Arylation of 1,2,3-Triazoles (Invited Article for the Reactions of Hydrocarbons and other C–H Compounds Special Issue)\
+ Zhang, C.; You, L.; Chen, C.\
+ [Molecules 2016, 20, 1268](http://www.mdpi.com/1420-3049/21/10/1268) [(PMID: 27669198)](http://www.ncbi.nlm.nih.gov/pubmed/27669198)
+ </li>
+ \
+ <li>
+ The past, present, and future of the Yang Reaction (Invited Review Article)\
+ Chen, C.\
+ [Org. Biomol. Chem. 2016, 14, 8641–8647](http://pubs.rsc.org/en/content/articlelanding/2016/ob/c6ob01214k) [(PMID: 27517138)](http://www.ncbi.nlm.nih.gov/pubmed/27517138)
+ </li>
+ \
+ <li>
+ Asymmetric Synthesis of Axinellamines A and B\
+ Ma, Z.; Wang, X.; Ma, Y.; Chen, C.\
+ [Angew. Chem. Int. Ed. 2016, 55, 4763–4766](https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201600007) [(PMID: 27037993)](http://www.ncbi.nlm.nih.gov/pubmed/27037993) [(Synfacts highlight)](https://www.thieme-connect.com/products/ejournals/abstract/10.1055/s-0035-1562031)
+ </li>
+ \
+ <li>
+ Chemical Disruption of Wnt-Dependent Cell Fate Decision-Making Mechanisms in Cancer and Regenerative Medicine (Invited Review Article)\
+ Lum, L.; Chen, C.\
+ [Curr. Med. Chem. 2015, 22, 4091–4103](http://benthamscience.com/journals/current-medicinal-chemistry/volume/22/issue/35/page/4091) [(PMID: 26310918)](http://www.ncbi.nlm.nih.gov/pubmed/26310918)
+ </li>
+ \
+ <li>
+ Identification and Characterization of β-Sitosterol Target Proteins (Invited Article for the 25th Anniversary Symposium-in-Print "Recent Advances in Medicinal Chemistry and Chemical Biology")\
+ Lomenick, B.; Shi, H.; Huang, J.; Chen, C.\
+ [Bioorg. Med. Chem. Lett. 2015, 25, 4976–4979](http://www.sciencedirect.com/science/article/pii/S0960894X15002036) [(PMID: 25804720)](http://www.ncbi.nlm.nih.gov/pubmed/25804720)
+ </li>
+ \
+ <li>
+ 2-Hydroxyglutarate Inhibits ATP Synthase and mTOR Signaling\
+ Fu, X.; Chin, R. M.; Vergnes, L.; Hwang, H.; Deng, G.; Xing, Y.; Pai, M. Y.; Li, S.; Ta, L.; Fazlollahi, F.; Chen, C.; Prins, R. M.; Teitell, M. A.; Nathanson, D. A.; Lai, A.; Faull, K. F.; Jiang, M.; Clarke, S. G.; Cloughesy, T. F.; Graeber, T. G.; Braas, D.; Christofk, H. R.; Jung, M. E.; Reue, K.; Huang J.\
+ [Cell Metab. 2015, 22, 508–515](http://www.cell.com/cell-metabolism/abstract/S1550-4131(15)00276-4) [(PMID: 26190651)](http://www.ncbi.nlm.nih.gov/pubmed/26190651)
+ </li>
+ \
+ <li>
+ Molecular Basis for the Specific Recognition of the Metazoan Cyclic GMP-AMP by the Innate Immune Adaptor Protein STING\
+ Shi, H.; Wu, J.; Chen, Z. J.; Chen, C.\
+ [Proc. Natl. Acad. Sci. 2015, 112, 8947–8952](http://www.pnas.org/content/112/29/8947.abstract) [(PMID: 26150511)](http://www.ncbi.nlm.nih.gov/pubmed/26150511)
+ </li>
+ \
+ <li>
+ Syntheses of Sceptrins and Nakamuric Acid and Insights into the Biosyntheses of Pyrrole–Imidazole Dimers\
+ Wang, X.-L.; Gao, Y.; Ma, Z.; Rodriguez, R. A.; Yu, Z.-X.; Chen, C.\
+ [Org. Chem. Front. 2015, 2, 978–984](http://pubs.rsc.org/en/content/articlelanding/2015/qo/c5qo00165j) [(PMID: 26328059)](http://www.ncbi.nlm.nih.gov/pubmed/26328059)
+ </li>
+ \
+ <li>
+ Disruption of Wnt/β-Catenin Signaling and Telomeric Shortening Are Inextricable Consequences of Tankyrase Inhibition in Human Cells\
+ Kulak, O.; Chen, H.; Holohan, B.; Wu, X.; He, H.; Borek, D.; Otwinowski, Z.; Yamaguchi, K.; Garofalo, L. A.; Ma, Z.; Wright, W.; Chen, C.; Shay, J. W.; Zhang, X.; Lum, L.\
+ [Mol. Cell Biol. 2015, 35, 2425–2435](http://mcb.asm.org/content/35/14/2425.abstract) [(PMID: 25939383)](http://www.ncbi.nlm.nih.gov/pubmed/25939383)
+ </li>
+ \
+ <li>
+ Construction of the 5,6,7-tricyclic skeleton of lancifodilactone F (Invited Article for Tetrahedron Letters Symposium-in-Print in Memory of Prof. Harry Wasserman)\
+ Shi, H.; De, S.; Wang, Q.; Gao, S.; Wang, X.; Chen, C.\
+ [Tetrahedron Lett. 2015, 56, 3225–3227](http://www.sciencedirect.com/science/article/pii/S004040391402108X) [(PMID: 26097263)](http://www.ncbi.nlm.nih.gov/pubmed/26097263)
+ </li>
+ \
+ <li>
+ An Approach for the Synthesis of Nakamuric Acid (Invited Article for Tetrahedron Symposium-in-Print "Synthesis of Indole/Pyrrole-Containing Natural Products")\
+ Wang, X.-L.; Chen, C.\
+ [Tetrahedron, 2015, 71, 3690–3693](http://www.sciencedirect.com/science/article/pii/S0040402014014549) [(PMID: 25983349)](http://www.ncbi.nlm.nih.gov/pubmed/25983349)
+ </li>
+ \
+ <li>
+ Syntheses of Cyclic Guanidine-Containing Natural Products (Invited Review Article)\
+ Ma, Y.; De, S.; Chen, C.\
+ [Tetrahedron 2015, 71, 1145–1173](http://www.sciencedirect.com/science/article/pii/S0040402014016603) [(PMID: 25684829)](http://www.ncbi.nlm.nih.gov/pubmed/25684829)
+ </li>
+ \
+ <li>
+ The Hedgehog Pathway Effector Smoothened Exhibits Signaling Competency in the Absence of Ciliary Accumulation\
+ Fan, C.-W.; Chen, B.; Franco, I.; Lu, J.; Shi, H.; Wei, S.; Wang, C.; Wu, X.; Tang, W.; Roth, M. G.; Williams, N. S.; Hirsch, E.; Chen, C.; Lum, L.\
+ [Chem. Biol. 2014, 21, 1680–1689](http://www.cell.com/chemistry-biology/abstract/S1074-5521(14)00378-0) [(PMID: 25484239)](http://www.ncbi.nlm.nih.gov/pubmed/25484239)
+ </li>
+ \
+ <li>
+ Asymmetric Syntheses of Sceptrin and Massadine and Evidence for Biosynthetic Enantiodivergence\
+ Ma, Z.; Wang, X.-L.; Wang, X.; Rodriguez, R. A.; Moore, C. E.; Gao, S.; Tan, X.; Ma, Y.; Rheingold, A. L.; Baran, P. S.; Chen, C.\
+ [Science 2014, 346, 219–224](https://www.science.org/doi/10.1126/science.1255677) [(PMID: 25301624)](http://www.ncbi.nlm.nih.gov/pubmed/26150511) [(response to comment)](https://www.science.org/doi/10.1126/science.aaa9626?intcmp=trendmd-sci)
+ </li>
+ \
+ <li>
+ Visible Light-Promoted Metal-Free sp^3^-C–H Fluorination\
+ Xia, J.-B.; Zhu, C.; Chen, C.\
+ [Chem. Commun. 2014, 50, 11701–11704](http://pubs.rsc.org/en/content/articlelanding/2014/cc/c4cc05650g) [(PMID: 25143256)](http://www.ncbi.nlm.nih.gov/pubmed/25143256)
+ </li>
+ \
+ <li>
+ Dimeric Pyrrole–Imidazole Alkaloids: Synthetic Approaches and Biosynthetic Hypotheses (Invited Review Article)\
+ Wang, X.; Ma, Z.; Wang, X.-L.; De, S.; Ma, Y.; Chen, C.\
+ [Chem. Commun. 2014, 50, 8628–8639](http://pubs.rsc.org/en/content/articlelanding/2014/cc/c4cc02290d) [(PMID: 24828265)](http://www.ncbi.nlm.nih.gov/pubmed/24828265)
+ </li>
+ \
+ <li>
+ Vanadium-Catalyzed C(sp^3^)–H Fluorination Reactions\
+ Xia, J.-B.; Ma, Y.; Chen, C.\
+ [Org. Chem. Front. 2014, 1, 468–472](http://pubs.rsc.org/en/content/articlelanding/2014/qo/c4qo00057a) [(P)MID: 24976971)](http://www.ncbi.nlm.nih.gov/pubmed/24976971)
+ </li>
+ \
+ <li>
+ A Simple Method for the Electrophilic Cyanation of Secondary Amines\
+ Zhu, C.; Xia, J.-B.; Chen, C.\
+ [Org. Lett. 2014, 16, 247–250](http://pubs.acs.org/doi/abs/10.1021/ol403245r) [(PMID: 24313859)](http://www.ncbi.nlm.nih.gov/pubmed/24313859)
+ </li>
+ \
+ <li>
+ Vanadium-Catalyzed Oxidative Strecker Reaction: α-C–H Cyanation of para-Methoxyphenyl (PMP)-Protected Primary Amines\
+ Zhu, C.; Xia, J.-B.; Chen, C.\
+ [Tetrahedron Lett. 2014, 55, 232–234](http://www.sciencedirect.com/science/article/pii/S0040403913019485) [(PMID: 24415804)](http://www.ncbi.nlm.nih.gov/pubmed/24415804)
+ </li>
+ \
+ <li>
+ Visible Light-Promoted Metal-Free C–H Activation: Diarylketone-Catalyzed Selective Benzylic Mono- and Difluorination\
+ Xia, J.-B.; Zhu, C.; Chen, C.\
+ [J. Am. Chem. Soc. 2013, 135, 17494–17500](http://pubs.acs.org/doi/abs/10.1021/ja410815u) [(PMID: 24180320)](http://www.ncbi.nlm.nih.gov/pubmed/24180320) [(Synfacts highlight)](https://www.thieme-connect.com/products/ejournals/abstract/10.1055/s-0033-1340409)
+ </li>
+ \
+ <li>
+ Stromal-Epithelial Crosstalk Regulates Kidney Progenitor Cell Differentiation\
+ Das, A.; Tanigawa, S.; Karner, C. M.; Xin, M.; Lum, L.; Chen, C.; Olson, E. N.; Perantoni, A. O.; Carroll, T. J.\
+ [Nat. Cell Biol. 2013, 15, 1035–1044](https://www.nature.com/articles/ncb2828) [(PMID: 23974041)](http://www.ncbi.nlm.nih.gov/pubmed/23974041)
+ </li>
+ \
+ <li>
+ Cyclic GMP-AMP Containing Mixed Phosphodiester Linkages Is An Endogenous High Affinity Ligand for STING\
+ Zhang, X.; Shi, H.; Wu, J.; Zhang, X.; Sun, L.; Chen, C.; Chen, Z. J.\
+ [Mol. Cell 2013, 51, 226–235](http://www.cell.com/molecular-cell/abstract/S1097-2765(13)00409-7) [(PMID: 23747010)](http://www.ncbi.nlm.nih.gov/pubmed/23747010)
+ </li>
+ \
+ <li>
+ The Development of Highly Potent Inhibitors for Porcupine\
+ Wang, X.-L.; Moon, J.; Dodge, M. E.; Pan, X.; Zhang, L.; Hanson, J.; Tuladhar, R.; Ma, Z.; Shi, H.; Williams, N. S.; Amatruda, J.; Carroll, T. J.; Lum, L.; Chen, C.\
+ [J. Med. Chem. 2013, 56, 2700–2704](http://pubs.acs.org/doi/abs/10.1021/jm400159c) [(PMID: 23477365)](http://www.ncbi.nlm.nih.gov/pubmed/23477365)
+ </li>
+ \
+ <li>
+ Cyclic-GMP-AMP Is an Endogenous Second Messenger in Innate Immune Signaling by Cytosolic DNA\
+ Wu, J.; Sun, L.; Chen, X.; Du, F.; Shi, H.; Chen, C.; Chen, Z. J.\
+ [Science 2013, 339, 826–830](https://www.science.org/doi/10.1126/science.1229963) [(PMID: 23258412)](http://www.ncbi.nlm.nih.gov/pubmed/23258412) [(Perspective)](https://www.science.org/doi/10.1126/science.1234724)
+ </li>
+ \
+ <li>
+ Nakiterpiosin (Invited Book Chapter)\
+ Gao, S.; Chen. C.\
+ In Total Synthesis of Natural Products–At the Frontiers of Organic Chemistry; Li, J. J., Corey, E. J., Eds.; Springer-Verlag: Berlin/Heidelberg, 2013; pp 25–38
+ </li>
+ \
+ <li>
+ A Biomimetic Route for the Construction of the [4+2] and [3+2] Core Skeletons of the Dimeric Pyrrole–Imidazole Alkaloids and the Asymmetric Synthesis of Ageliferins\
+ Wang, X.; Wang, X.-L.; Tan, X.; Lu, J.; Cormier, K. W.; Ma, Z.; Chen. C.\
+ [J. Am. Chem. Soc. 2012, 134, 18834–18842](http://pubs.acs.org/doi/abs/10.1021/ja309172t) [(PMID: 23072663)](http://www.ncbi.nlm.nih.gov/pubmed/23072663) [(correction1)](http://pubs.acs.org/doi/pdf/10.1021/ja311681x) [(correction2)](http://pubs.acs.org/doi/pdf/10.1021/ja6b09697)
+ </li>
+ \
+ <li>
+ The Chemistry and Biology of Nakiterpiosin (Invited Review Article)\
+ Gao, S.; Wang, Q.; Wang, G.; Lomenick, B; Liu, J.; Fan, C.-W.; Deng, L.-W.; Huang, J.; Lum, L.; Chen. C.\
+ [Synlett 2012, 23, 2298–2310](https://www.thieme-connect.de/products/ejournals/abstract/10.1055/s-0031-1290460) [(PMID: 23226922)](http://www.ncbi.nlm.nih.gov/pubmed/23226922)
+ </li>
+ \
+ <li>
+ A Highly Selective Vanadium Catalyst for Benzylic C–H Oxidation\
+ Xia, J.; Cormier, K. W.; Chen, C.\
+ [Chem. Sci. 2012, 3, 2240–2245](http://pubs.rsc.org/en/content/articlelanding/2012/sc/c2sc20178j) [(PMID: 22712051)](http://www.ncbi.nlm.nih.gov/pubmed/22712051)
+ </li>
+ \
+ <li>
+ Diverse Chemical Scaffolds Support Direct Inhibition of the Membrane Bound O-Acyltransferase Porcupine\
+ Dodge, M. E.; Moon, J.; Tuladhar, R.; Lu, J.; Jacob, L. S.; Zhang, L.-s.; Shi, H.; Wang, X.-L.; Moro, E.; Mongera, A.; Argenton, F.; Karner, C. M.; Carroll, T. J.; Chen, C.; Amatruda, J. F.; Lum, L.\
+ [J. Biol. Chem. 2012, 287, 23246–23254](http://www.jbc.org/content/287/27/23246) [(PMID: 22593577)](http://www.ncbi.nlm.nih.gov/pubmed/22593577)
+ </li>
+ \
+ <li>
+ In Vivo Wnt Signaling Tracing through a Transgenic Biosensor Fish Reveals Novel Activity Domains\
+ Moro, E.; Ozhan-Kizil, G.; Mongera, A.; Beis, D.; Wierzbicki, C.; Young, R. M.; Bournele, D.; Domenichini, A.; Valdivia, L. E.; Lum, L.; Chen, C.; Amatruda, J. F.; Tiso, N.; Weidinger, G.; Argenton, F.\
+ [Dev. Biol. 2012, 366, 327–340](http://www.sciencedirect.com/science/article/pii/S0012160612001959) [(PMID: 22546689)](http://www.ncbi.nlm.nih.gov/pubmed/22546689)
+ </li>
+ \
+ <li>
+ Asymmetric Synthesis of Ageliferin\
+ Wang, X.; Ma, Z.; Lu, J.; Tan, X.; Chen, C.\
+ [J. Am. Chem. Soc. 2011, 133, 15350–15353](http://pubs.acs.org/doi/abs/10.1021/ja207386q) [(PMID: 21888421)](http://www.ncbi.nlm.nih.gov/pubmed/21888421) [(correction)](https://pubs.acs.org/doi/10.1021/jacs.6b09696)
+ </li>
+ \
+ <li>
+ Canonical Wnt9b Signaling Balances Progenitor Cell Expansion and Differentiation During Kidney Development\
+ Karner, C. M.; Das, A.; Ma, Z.; Self, M.; Chen, C.; Lum, L.; Oliver, G.; Carroll T. J.\
+ [Development 2011, 138, 1247–1257](http://dev.biologists.org/content/138/7/1247.abstract) [(PMID: 21350016)](http://www.ncbi.nlm.nih.gov/pubmed/21350016)
+ </li>
+ \
+ <li>
+ Revisiting the Kinnel–Scheuer Hypothesis for the Biosynthesis of Palau'amine (Invited Article for the Emerging Investigator Special Issue)\
+ Ma, Z.; Lu, J.; Wang, X.; Chen, C.\
+ [Chem. Commun. 2011, 47, 427–429](http://pubs.rsc.org/en/Content/ArticleLanding/2011/CC/C0CC02214D) [(PMID: 20848010)](http://www.ncbi.nlm.nih.gov/pubmed/20848010)
+ </li>
+ \
+ <li>
+ Tankyrase Is Necessary for Canonical Wnt Signaling during Kidney Development\
+ Karner, C. M.; Michael Dodge, C. E.; Ma, Z.; Lu, J.; Chen, C.; Lum, L.; Carroll, T. J.\
+ [Dev. Dyn. 2010, 239, 2014–2023](http://onlinelibrary.wiley.com/doi/10.1002/dvdy.22340/abstract) [(PMID: 20549720)](http://www.ncbi.nlm.nih.gov/pubmed/20549720)
+ </li>
+ \
+ <li>
+ Chemical and Biological Studies of Nakiterpiosin and Nakiterpiosinone\
+ Gao, S.; Wang, Q.; Huang, L. J.; Lum, L.; Chen, C.\
+ [J. Am. Chem. Soc. 2010, 132, 371–383](http://pubs.acs.org/doi/abs/10.1021/ja908626k) [(PMID: 20000429)](http://www.ncbi.nlm.nih.gov/pubmed/20000429)
+ </li>
+ \
+ <li>
+ Structure/Activity Relationship Studies of Small-Molecule Inhibitors of Wnt Response (Invited Article in honor of Prof. Carlos Barbas III's 2009 Tetrahedron Young Investigator Award in Bioorganic and Medicinal Chemistry)\
+ Lu, J.; Ma, Z.; Hsieh, J.-C.; Fan, C.-W.; Chen, B.; Longgood, J. C.; Williams, N. S.; Amatruda, J. F.; Lum, L.; Chen, C.\
+ [Bioorg. Med. Chem. Lett. 2009, 19, 3825–3827](http://dx.doi.org/10.1016/j.bmcl.2009.04.040) [(PMID: 19410457)](http://www.ncbi.nlm.nih.gov/pubmed/19410457)
+ </li>
+ \
+ <li>
+ Synthesis and Structure Revision of Nakiterpiosin\
+ Gao, S.; Wang, Q.; Chen, C.\
+ [J. Am. Chem. Soc. 2009, 131, 1410–1412](http://pubs.acs.org/doi/abs/10.1021/ja808110d) [(PMID: 18998640)](http://www.ncbi.nlm.nih.gov/pubmed/18998640) [(cover picture)](https://chuochen.github.io/jacs2009v113i4c.pdf) [(Synfacts highlight)](https://www.thieme-connect.de/products/ejournals/pdf/10.1055/s-0029-1217242.pdf)
+ </li>
+ \
+ <li>
+ Small Molecule-mediated Disruption of Wnt-dependent Signal Transduction in Tissue Regeneration and Cancer\
+ Chen, B.; Dodge, M. E.; Tang, W.; Lu, J.; Ma, Z.; Fan, C.-W.; Wei, S.; Hao, W.; Kilgore, J. A.; Williams, N. S.; Roth, M. G.; Amatruda, J. F.; Chen, C.; Lum, L.\
+ [Nat. Chem. Biol. 2009, 5, 100–107](http://www.nature.com/nchembio/journal/v5/n2/abs/nchembio.137.html) [(PMID: 19125156)](http://www.ncbi.nlm.nih.gov/pubmed/19125156) [(News and Views)](https://www.nature.com/articles/nchembio0209-74)
+ </li>
+ \
+ <li>On the Potent Inhibitors of the Hedgehog Signaling Pathway (Invited Condensation and Commentary)\
+ Chen, C.\
+ Chemtracts–Org. Chem. 2008, 21, 150–154
+ </li>
+ \
+ <li>Nickel-Catalyzed Carbonylative Negishi Cross-Coupling Reactions\
+ Wang, Q.; Chen, C.\
+ [Tetrahedron Lett. 2008, 49, 2916–2921](http://dx.doi.org/10.1016/j.tetlet.2008.03.035) [(Synfacts highlight)](https://www.thieme-connect.com/products/ejournals/abstract/10.1055/s-2008-1077834)
+ </li>
+ \
+ <li>
+ An Approach to the Core Skeleton of Lancifodilactone F\
+ Wang, Q.; Chen, C.\
+ [Org. Lett. 2008, 10, 1223–1226](http://pubs.acs.org/doi/abs/10.1021/ol800111j) [(PMID: 18303901)](http://www.ncbi.nlm.nih.gov/pubmed/18303901)
+ </li>
+ \
+ <li>
+ Palladium-Catalyzed Direct Functionalization of Imidazolinone: Synthesis of Dibromophakellstatin\
+ Lu, J.; Tan, X.; Chen, C.\
+ [J. Am. Chem. Soc. 2007, 129, 7768–7769](http://pubs.acs.org/doi/abs/10.1021/ja072844p) [(PMID: 17539649)](http://www.ncbi.nlm.nih.gov/pubmed/17539649) [(Addition)](https://pubs.acs.org/doi/10.1021/ja077266r)
+ </li>
+ \
+ <li>
+ Regiocontrol in Manganese(III)-Mediated Oxidative Heterobicyclizations: Access to the Core Skeletons of Oroidin Dimers\
+ Tan, X.; Chen, C.\
+ [Angew. Chem. Int. Ed. 2006, 45, 4345–4348](https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.200601208) [(PMID: 16739146)](http://www.ncbi.nlm.nih.gov/pubmed/16739146)
+ </li>
+ 
+ ___
+ 
+ <li>
+ Convergent Diversity-Oriented Synthesis of Small-Molecule Hybrids\
+ Chen, C.; Li, X.; Neumann, C. S.; Lo, M. M.-C.; Schreiber, S. L.\
+ [Angew. Chem. Int. Ed. 2005, 44, 2249–2252](https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.200462798) [(PMID: 15747386)](http://www.ncbi.nlm.nih.gov/pubmed/15747386)
+ </li>
+ \
+ 
+ <li>
+ Label-free Detection of Small-molecule–Protein Interactions by Using Nanosensors\
+ Wang, W. U.; Chen, C.; Lin, K.-h.; Fang, Y.; Lieber, C. M.\
+ [Proc. Natl. Acad. Sci. 2005, 102, 3208–3212](http://www.pnas.org/content/102/9/3208.abstract) [(PMID: 15716362)](http://www.ncbi.nlm.nih.gov/pubmed/15716362)
+ </li>
+ \
+ 
+ <li>
+ Catalytic Asymmetric [3+2] Cycloaddition of Azomethine Ylides. Development of a Versatile Stepwise, Three-Component Reaction for Diversity-Oriented Synthesis\
+ Chen, C.; Li, X.; Schreiber, S. L.\
+ [J. Am. Chem. Soc. 2003, 125, 10174–10175](http://pubs.acs.org/doi/abs/10.1021/ja036558z) [(PMID: 12926931)](http://www.ncbi.nlm.nih.gov/pubmed/12926931)
+ </li>
+ \
+ <li>
+ Abnormal and Regioselective Wacker Oxidation of 1,5-Diene\
+ Ho, T.-L.; Chang, M.; Chen, C.\
+ [Tetrahedron Lett. 2003, 44, 6955–6957](http://dx.doi.org/10.1016/S0040-4039(03)01709-X)
+ </li>
+ \
+ 
+ <li>
+ Synthesis of (+)-CP-263,114\
+ Chen, C.; Layton, M. E.; Sheehan, S. M.; Shair, M. D.\
+ [J. Am. Chem. Soc. 2000, 122, 7424–7425](http://pubs.acs.org/doi/abs/10.1021/ja001958x)
+ </li>
+ \
+ 
+ <li>
+ Chelation-Assisted Regioselective C–O Bond Cleavage Reactions of Acetals by Grignard Reagents. A General Procedure for the Regioselective Synthesis of Protected Polyols Having One Free Hydroxy Group\
+ Cheng, W.-L.; Shaw, Y.-J.; Yeh, S.-M.; Kanakamma, P. P.; Chen, Y.-H.; Chen, C.; Shieu, J.-C.; Yiin, S.-J.; Lee, G.-H.; Wang, Y.; Luh, T.-Y.\
+ [J. Org. Chem. 1999, 64, 532–539](http://pubs.acs.org/doi/abs/10.1021/jo981579a)
+ </li>
+ \
+ 
+ <li>
+ Stereospecific Synthesis of the CP-263,114 Core Structure\
+ Chen, C.; Layton, M. E.; Shair, M. D.\
+ [J. Am. Chem. Soc. 1998, 120, 10784–10785](http://pubs.acs.org/doi/abs/10.1021/ja982581m)
+ </li>
+ 
+</ol>
+
