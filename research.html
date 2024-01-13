@@ -13,7 +13,7 @@
 
 <title>What’s cooking</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -309,13 +310,13 @@ $(document).ready(function () {
 
 <p>We use state-of-the-art tools to build small organic molecules and study their functions in biological systems. Our lab started in 2004, focusing on addressing standing issues in natural product synthesis, and has expanded since to include using chemical biology approaches to improve our understanding of protein functions.<br />
 <br />
-In early years, we exploited single-electron transfer chemistry and photochemistry to construct strategic C-C bonds of the target molecules in synthesis. This effort accumulated to the completion of the synthesis of nakiterpiosin, dibromophakellstatin, sceptrin, ageliferin, massadine and axinellamine. We also developed new transition metal-catalyzed and photochemical reactions to enable C-C and C-X bond formations in challenging settings. We are currently establishing a new platform to support biocatalysis.<br />
+In early years, we exploited single-electron transfer chemistry and photochemistry to construct strategic C-C bonds of the target molecules in synthesis. This effort accumulated to the completion of the synthesis of nakiterpiosin, dibromophakellstatin, sceptrin, ageliferin, massadine and axinellamine. We also developed new transition metal-catalyzed and photochemical reactions to enable C-C and C-X bond formations in challenging settings. Our current focus is the design and synthesis of functional molecules.<br />
 <a href="https://chuochen.github.io/chem.html"><em>more on chemistry</em></a><br />
 <br />
 Starting in 2005, we worked with Prof. Lawrence Lum who demonstrated for the first time that the Wnt pathway is druggable (Dr. Feng Cong at Novartis made the same discovery concurrently). Our lab has since developed a series of small-molecule porcupine (PORCN) inhibitors that suppress the secretion of Wnt proteins, and tankyrase (TNKS) inhibitors that promote the degradation of β-catenin. Currently, we are using a combination of chemical and biological tools to study how TNKS controls Wnt/β-catenin signaling.<br />
 <a href="https://chuochen.github.io/Wnt.html"><em>more on Wnt</em></a><br />
 <br />
-In 2012, we started to collaborate with Prof. James Zhijian Chen who discovered the long-sought cytosolic DNA sensor cyclic-GMP-AMP synthase (cGAS). Our lab helped determine the chemical structure of the cGAS enzyme product cGAMP, elucidated the molecular basis for its specific recognition by the stimulator of interferon genes (STING), and developed an investigational drug for cancer based on cGAMP. We now seek to provide innovative solutions to modulating cGAS/STING functions to treat cancer and autoimmune diseases.<br />
+In 2012, we collaborated with Prof. James Zhijian Chen who discovered the long-sought cytosolic DNA sensor cyclic-GMP-AMP synthase (cGAS) and helped determine the chemical structure of the cGAS enzyme product cGAMP. We have later elucidated the molecular basis for its specific recognition by the stimulator of interferon genes (STING), and developed an investigational drug for cancer based on cGAMP. We now seek to provide innovative solutions to modulating cGAS/STING functions to treat cancer and autoimmune diseases.<br />
 <a href="https://chuochen.github.io/cGAS-STING.html"><em>more on cGAS-STING</em></a><br />
 </p>
 

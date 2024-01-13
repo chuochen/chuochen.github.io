@@ -13,7 +13,7 @@
 
 <title>cGAS-STING</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -307,7 +308,7 @@ $(document).ready(function () {
 </div>
 
 
-<p>Detection of cytosolic DNA by cGAS is an important defense mechanism against pathogen infection and cancer. DNA activates the nucleotidyltransferase cGAS to produce cGAMP from cyclodimerization of ATP and GTP. Subsequently, cGAMP binds to and promotes the polymerization of STING. Polymerized STING supports the assembly of a signalosome that drives interferon induction. Defective cGAS-STING signaling allows for immune escape, whereas aberrant cGAS-STING activation can lead to autoimmune diseases. We established that, unlike the bacterial metabolites, mammalian cGAMP is a hybrid cyclic dinucleotide with mixed phosphodiester linkages. We further showed that mammalian cGAMP but not the bacterial cGAMP adopts a free-ligand conformation that closely resembles the STING-bound conformation. The specific combination of a pair of G/A nucleobases and the (2’→5’)/(3’→5’) linkages underlies the low entropic and enthalpic costs for its high affinity to STING, demonstrating that analyzing the conformation of the free-ligand can be equally important to studying the structure of the protein complex in understanding protein–ligand interactions. Building on these results, we have further developed a series of cGAS antagonists, STING agonists and STING antagonists. One of these molecules is currently in clinical trial for cancer.<br />
+<p>Detection of cytosolic DNA by cGAS is an important defense mechanism against pathogen infection and cancer. DNA activates the nucleotidyltransferase cGAS to produce cGAMP from cyclodimerization of ATP and GTP. Subsequently, cGAMP binds to and promotes the polymerization of STING. Polymerized STING supports the assembly of a signalosome that drives interferon induction. Defective cGAS-STING signaling allows for immune escape, whereas aberrant cGAS-STING activation can lead to autoimmune diseases. We established that, unlike the bacterial metabolites, mammalian cGAMP is a hybrid cyclic dinucleotide with mixed phosphodiester linkages. We further showed that mammalian cGAMP but not the bacterial cGAMP adopts a free-ligand conformation that closely resembles the STING-bound conformation. The specific combination of a pair of G/A nucleobases and the (2’→5’)/(3’→5’) linkages underlies the low entropic and enthalpic costs in its high affinity to STING, demonstrating that analyzing the conformation of the free-ligand can be equally important to studying the structure of the protein complex in understanding protein–ligand interactions. Building on these results, we have further developed a series of cGAS inhibitors and STING agonists and antagonists. One of these molecules is currently in clinical trial for cancer.<br />
 <br />
 Cyclic-GMP-AMP Is an Endogenous Second Messenger in Innate Immune Signaling by Cytosolic DNA<br />
 Wu, J.; Sun, L.; Chen, X.; Du, F.; Shi, H.; Chen, C.; Chen, Z. J.<br />
@@ -324,6 +325,14 @@ Shi, H.; Wu, J.; Chen, Z. J.; Chen, C.<br />
 cGAS Is Essential for the Antitumor Effect of Immune Checkpoint Blockade<br />
 Wang, H.; Hu, S.; Chen, X.; Shi, H.; Chen, C.; Sun, Li; Chen, Z. J.<br />
 <a href="http://www.pnas.org/content/early/2017/01/27/1621363114.abstract">Proc. Natl. Acad. Sci. 2017, 114, 1637–1642</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/28137885">(PMID: 28137885)</a><br />
+<br />
+Tumor-Targeted Delivery of a STING Agonist Improves Cancer Immunotherapy<br />
+Wu, Y.-t.; Fang, Y.; Wei, Q.; Shi, H.; Tan, H.; Deng, Y.; Zeng, Z.; Qiu, J.; Chen, C.; Sun, L., Chen, Z. J.<br />
+<a href="https://www.pnas.org/doi/10.1073/pnas.2214278119">Proc. Natl. Acad. Sci. 2022, 119, e2214278119</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/36442099">(PMID: 36442099)</a><br />
+<br />
+Orthogonal Hydroxyl Functionalization of cGAMP Confers Metabolic Stability and Enables Antibody Conjugation<br />
+Lu, Y.; You, L.; Li, L.; Kilgore, J.; Liu, S.; Wang, X.; Dai, Y.; Wei, Q.; Shi, H.; Han, L.; Sun, L.; Chen, Z. J.; Zhang, X.; Williams, N. S.; Chen, C.<br />
+<a href="https://pubs.acs.org/doi/10.1021/acscentsci.3c01122">ACS Cent. Sci. 2023, 9, 2298–2305</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/38161369">(PMID: 38161369)</a><br />
 </p>
 
 
